@@ -30,8 +30,8 @@ jobs:
       - name: Polish generated SVGs
         shell: pwsh
         run: |
-          ./scripts/polish-pacman-svg.ps1 -Path dist/pacman-contribution-graph.svg -EatenColor "#8c959f"
-          ./scripts/polish-pacman-svg.ps1 -Path dist/pacman-contribution-graph-dark.svg -EatenColor "#6e7681"
+          ./scripts/polish-pacman-svg.ps1 -Path dist/pacman-contribution-graph.svg -Theme Light
+          ./scripts/polish-pacman-svg.ps1 -Path dist/pacman-contribution-graph-dark.svg -Theme Dark
 
       - name: Push generated files to output branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
