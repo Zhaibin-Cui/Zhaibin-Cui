@@ -51,9 +51,12 @@ Understanding and usefulness are not competing goals. A clearer account of how m
 This direction is strongly inspired by [Physics of Language Models](https://physics.allen-zhu.com/home): decompose intelligence into measurable components, isolate causal factors through controlled training environments, and search for principles that generalize beyond a particular model generation. I am especially interested in its studies of [hidden reasoning](https://physics.allen-zhu.com/part-2-grade-school-math/part-2-1), [knowledge storage and extraction](https://physics.allen-zhu.com/part-3-knowledge/part-3-1), and [architecture design](https://physics.allen-zhu.com/part-4-architecture-design/part-4-1).
 
 ## 🧭 Technical journey
-I'm now a Ph.D. student in IIIS, Tsinghua University.
+I am currently a Ph.D. candidate at the Institute for Interdisciplinary Information Sciences (IIIS), Tsinghua University.
 
-My background spans multiple aspects—from programmable hardware and experimental control to distributed quantum systems and learned visual models. That experience shaped how I approach LLMs today: I care about both the mechanism inside a component and the value of the complete system.
+My background spans quantum information, experimental physics, programmable hardware, control software, distributed quantum systems, and learning-based visual models. In quantum research, I have developed not only a strong understanding of the underlying physics and information theory, but also the engineering ability to build complete systems across the hardware–software stack, from experimental electronics and real-time control to system software and distributed protocols.
+
+My work on learning-based visual models has further shaped my interest in mechanism-driven algorithm design. Rather than relying primarily on empirical trial and error, I aim to understand how large models represent, process, and integrate information, and then use those insights to design more principled network architectures and learning algorithms. This perspective now guides how I approach large language models: I care both about the mechanisms inside individual components and about how those components can be engineered into an efficient, reliable, and valuable end-to-end system.
+
 
 - 👁️ **Vision models · PaGE** — Contributed to [PaGE: Towards Practical Human-level Gaze Target Estimation](https://PaGE-26.github.io), which combines scene-level semantic understanding with precise spatial reasoning and distills a large teacher into practical student models. [Paper](https://arxiv.org/abs/2607.04860)
 - 🌐 **Distributed quantum networks** — Worked on architectures and experiments for functional quantum-network nodes, including multiplexed quantum links, long-distance ion–photon interfaces, and programmable quantum memories. [Publications on Google Scholar](https://scholar.google.com/citations?user=oftkKp4AAAAJ&hl=en)
