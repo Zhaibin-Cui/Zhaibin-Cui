@@ -1,17 +1,17 @@
 <div align="center">
 
-<img src="./assets/ai-friends.svg" alt="Cute AI friends banner" width="100%" />
+<img src="./assets/cyber-quantum-banner.svg" alt="Cyber quantum AI banner" width="100%" />
 
-<h1>Hi, I'm Zhaibin Cui 👾</h1>
+<h1>Zhaibin Cui</h1>
 
 <p>
-  <em>Building little things with AI, code, and curiosity.</em>
+  <strong>Quantum Computing · Artificial Intelligence · Computational Systems</strong>
 </p>
 
 <p>
-  <img src="https://img.shields.io/badge/AI-friend%20mode-ffb4c8?style=for-the-badge&labelColor=fff4f8" alt="AI friend mode" />
-  <img src="https://img.shields.io/badge/Pac--Man-on%20duty-ffd166?style=for-the-badge&labelColor=fff8dc" alt="Pac-Man on duty" />
-  <img src="https://img.shields.io/badge/Profile-cute%20but%20useful-b7e4ff?style=for-the-badge&labelColor=f0fbff" alt="Cute profile" />
+  <img src="https://img.shields.io/badge/Quantum-Computing-00f5ff?style=for-the-badge&labelColor=050816" alt="Quantum Computing" />
+  <img src="https://img.shields.io/badge/Artificial-Intelligence-7c3aed?style=for-the-badge&labelColor=050816" alt="Artificial Intelligence" />
+  <img src="https://img.shields.io/badge/Computational-Systems-ff2e88?style=for-the-badge&labelColor=050816" alt="Computational Systems" />
 </p>
 
 <picture>
@@ -20,24 +20,25 @@
   <img alt="Pac-Man eating my GitHub contribution graph" src="https://raw.githubusercontent.com/Zhaibin-Cui/Zhaibin-Cui/output/pacman-contribution-graph.svg" width="100%">
 </picture>
 
-<sub>Pac-Man refreshes automatically. The original GitHub contribution calendar still exists below GitHub's own profile sections.</sub>
+<sub>Contribution graph rendered as an arcade-style activity layer. Updated automatically.</sub>
 
 </div>
 
 ---
 
-### 🌱 Current vibe
+### Focus
 
-- 🤖 Exploring AI-assisted development
-- 🎮 Making my GitHub garden look less serious
-- 🍒 Feeding Pac-Man with contribution dots
-- ✨ Keeping projects small, readable, and fun
+- Quantum computing and quantum information workflows
+- Artificial intelligence, model behavior, and applied ML systems
+- Computational tooling for research, experimentation, and reproducibility
+- Practical software systems that connect theory with usable implementations
 
-### 🧸 Tiny AI corner
+### Technical direction
+
+I work around the boundary between quantum methods and AI systems, with an emphasis on clear abstractions, reliable experiments, and implementation quality.
 
 ```txt
-   /\_/\
-  ( o.o )   beep boop, ship cute things
-   > ^ <
+quantum_state  →  measurement  →  data
+data           →  model        →  inference
+inference      →  system       →  feedback
 ```
-

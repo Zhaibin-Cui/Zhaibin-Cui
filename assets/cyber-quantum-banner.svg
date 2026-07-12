@@ -1,0 +1,58 @@
+<svg width="960" height="240" viewBox="0 0 960 240" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Cyber quantum AI banner</title>
+  <desc id="desc">A cyber-style banner with quantum circuit lines, neural network nodes, and a dark technical interface aesthetic.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="960" y2="240" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#050816"/>
+      <stop offset="0.48" stop-color="#081426"/>
+      <stop offset="1" stop-color="#12071F"/>
+    </linearGradient>
+    <linearGradient id="cyan" x1="120" y1="40" x2="820" y2="200" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00F5FF"/>
+      <stop offset="0.5" stop-color="#7C3AED"/>
+      <stop offset="1" stop-color="#FF2E88"/>
+    </linearGradient>
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" stroke="#17324D" stroke-width="1" opacity="0.42"/>
+    </pattern>
+  </defs>
+
+  <rect width="960" height="240" rx="28" fill="url(#bg)"/>
+  <rect width="960" height="240" rx="28" fill="url(#grid)"/>
+  <path d="M0 185C140 128 248 224 388 164C534 101 644 27 960 80" stroke="url(#cyan)" stroke-width="2" opacity="0.5"/>
+  <path d="M0 62C180 113 284 7 442 66C604 127 737 211 960 154" stroke="#00F5FF" stroke-width="1.4" opacity="0.34"/>
+
+  <g filter="url(#glow)">
+    <path d="M110 82H226M226 82V122M226 122H338M338 122V166M338 166H460" stroke="#00F5FF" stroke-width="3" stroke-linecap="round"/>
+    <path d="M500 72H615M615 72V114M615 114H740M740 114V156M740 156H848" stroke="#FF2E88" stroke-width="3" stroke-linecap="round"/>
+    <circle cx="110" cy="82" r="7" fill="#00F5FF"/>
+    <circle cx="226" cy="82" r="9" fill="#081426" stroke="#00F5FF" stroke-width="3"/>
+    <circle cx="226" cy="122" r="7" fill="#00F5FF"/>
+    <circle cx="338" cy="122" r="9" fill="#081426" stroke="#7C3AED" stroke-width="3"/>
+    <circle cx="338" cy="166" r="7" fill="#7C3AED"/>
+    <circle cx="460" cy="166" r="9" fill="#081426" stroke="#00F5FF" stroke-width="3"/>
+    <circle cx="500" cy="72" r="7" fill="#FF2E88"/>
+    <circle cx="615" cy="72" r="9" fill="#081426" stroke="#FF2E88" stroke-width="3"/>
+    <circle cx="615" cy="114" r="7" fill="#FF2E88"/>
+    <circle cx="740" cy="114" r="9" fill="#081426" stroke="#7C3AED" stroke-width="3"/>
+    <circle cx="740" cy="156" r="7" fill="#7C3AED"/>
+    <circle cx="848" cy="156" r="9" fill="#081426" stroke="#FF2E88" stroke-width="3"/>
+  </g>
+
+  <g opacity="0.88">
+    <rect x="272" y="58" width="416" height="124" rx="20" fill="#06111F" stroke="url(#cyan)" stroke-width="1.5"/>
+    <text x="480" y="105" text-anchor="middle" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="34" font-weight="700" fill="#E6F7FF">ZHAIBIN CUI</text>
+    <text x="480" y="137" text-anchor="middle" font-family="Consolas, 'SFMono-Regular', monospace" font-size="18" fill="#8BE9FD">QUANTUM COMPUTING × ARTIFICIAL INTELLIGENCE</text>
+    <text x="480" y="162" text-anchor="middle" font-family="Consolas, 'SFMono-Regular', monospace" font-size="13" fill="#B8C7D9">research · systems · algorithms</text>
+  </g>
+
+  <text x="44" y="214" font-family="Consolas, 'SFMono-Regular', monospace" font-size="12" fill="#5EEAD4">q_state: coherent</text>
+  <text x="760" y="214" font-family="Consolas, 'SFMono-Regular', monospace" font-size="12" fill="#F472B6">model_space: active</text>
+</svg>
