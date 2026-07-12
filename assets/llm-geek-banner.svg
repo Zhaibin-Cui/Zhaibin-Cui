@@ -1,0 +1,68 @@
+<svg width="960" height="240" viewBox="0 0 960 240" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Research profile banner</title>
+  <desc id="desc">A dark technical banner with model analysis blocks, neural network traces, and subtle quantum experiment lines.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="960" y2="240" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#05070D"/>
+      <stop offset="0.55" stop-color="#08111F"/>
+      <stop offset="1" stop-color="#0D0718"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="80" y1="44" x2="880" y2="196" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00E5FF"/>
+      <stop offset="0.45" stop-color="#8B5CF6"/>
+      <stop offset="1" stop-color="#FF3D81"/>
+    </linearGradient>
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M24 0H0V24" stroke="#1B2B42" stroke-width="1" opacity="0.45"/>
+    </pattern>
+  </defs>
+
+  <rect width="960" height="240" rx="26" fill="url(#bg)"/>
+  <rect width="960" height="240" rx="26" fill="url(#grid)"/>
+  <rect x="34" y="30" width="892" height="180" rx="18" fill="#050A12" stroke="#1F3654"/>
+
+  <g filter="url(#glow)" opacity="0.9">
+    <path d="M72 76H180M180 76V118M180 118H284M284 118V164M284 164H392" stroke="#00E5FF" stroke-width="2.4" stroke-linecap="round"/>
+    <path d="M566 72H670M670 72V118M670 118H782M782 118V166M782 166H886" stroke="#FF3D81" stroke-width="2.4" stroke-linecap="round"/>
+    <circle cx="72" cy="76" r="5" fill="#00E5FF"/>
+    <circle cx="180" cy="76" r="7" fill="#050A12" stroke="#00E5FF" stroke-width="2.2"/>
+    <circle cx="180" cy="118" r="5" fill="#00E5FF"/>
+    <circle cx="284" cy="118" r="7" fill="#050A12" stroke="#8B5CF6" stroke-width="2.2"/>
+    <circle cx="284" cy="164" r="5" fill="#8B5CF6"/>
+    <circle cx="392" cy="164" r="7" fill="#050A12" stroke="#00E5FF" stroke-width="2.2"/>
+    <circle cx="566" cy="72" r="5" fill="#FF3D81"/>
+    <circle cx="670" cy="72" r="7" fill="#050A12" stroke="#FF3D81" stroke-width="2.2"/>
+    <circle cx="670" cy="118" r="5" fill="#FF3D81"/>
+    <circle cx="782" cy="118" r="7" fill="#050A12" stroke="#8B5CF6" stroke-width="2.2"/>
+    <circle cx="782" cy="166" r="5" fill="#8B5CF6"/>
+    <circle cx="886" cy="166" r="7" fill="#050A12" stroke="#FF3D81" stroke-width="2.2"/>
+  </g>
+
+  <g>
+    <rect x="336" y="58" width="288" height="124" rx="16" fill="#080F1A" stroke="url(#accent)" stroke-width="1.5"/>
+    <text x="480" y="91" text-anchor="middle" font-family="Consolas, 'SFMono-Regular', monospace" font-size="17" fill="#7DD3FC">model analysis / experimental systems</text>
+    <text x="480" y="124" text-anchor="middle" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="28" font-weight="700" fill="#EAF6FF">Zhaibin Cui</text>
+    <text x="480" y="153" text-anchor="middle" font-family="Consolas, 'SFMono-Regular', monospace" font-size="15" fill="#C4B5FD">large language models · multimodal AI · quantum computing</text>
+  </g>
+
+  <g opacity="0.78">
+    <rect x="84" y="124" width="78" height="28" rx="8" fill="#071827" stroke="#244C69"/>
+    <text x="123" y="143" text-anchor="middle" font-family="Consolas, monospace" font-size="12" fill="#8BE9FD">tokens</text>
+    <rect x="190" y="124" width="92" height="28" rx="8" fill="#071827" stroke="#244C69"/>
+    <text x="236" y="143" text-anchor="middle" font-family="Consolas, monospace" font-size="12" fill="#8BE9FD">models</text>
+    <rect x="704" y="124" width="78" height="28" rx="8" fill="#16091B" stroke="#5A2547"/>
+    <text x="743" y="143" text-anchor="middle" font-family="Consolas, monospace" font-size="12" fill="#FDA4AF">signals</text>
+    <rect x="806" y="124" width="78" height="28" rx="8" fill="#16091B" stroke="#5A2547"/>
+    <text x="845" y="143" text-anchor="middle" font-family="Consolas, monospace" font-size="12" fill="#FDA4AF">systems</text>
+  </g>
+
+  <text x="48" y="222" font-family="Consolas, 'SFMono-Regular', monospace" font-size="12" fill="#64748B">structure · behavior · evaluation</text>
+  <text x="704" y="222" font-family="Consolas, 'SFMono-Regular', monospace" font-size="12" fill="#64748B">clear experiments, careful implementation</text>
+</svg>
