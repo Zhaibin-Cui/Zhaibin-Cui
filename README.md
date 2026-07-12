@@ -15,38 +15,48 @@
 <p>
   <img src="https://img.shields.io/badge/Focus-LLM%20Mechanisms-111827?style=flat-square&logo=probot&logoColor=8B5CF6" alt="LLM Mechanisms" />
   <img src="https://img.shields.io/badge/Method-Controlled%20Experiments-111827?style=flat-square&logo=pytest&logoColor=22D3EE" alt="Controlled Experiments" />
-  <img src="https://img.shields.io/badge/Question-How%20Models%20Work-111827?style=flat-square&logo=thealgorithms&logoColor=F9A8D4" alt="How Models Work" />
+  <img src="https://img.shields.io/badge/Goal-Useful%20%26%20Reliable%20AI-111827?style=flat-square&logo=thealgorithms&logoColor=F9A8D4" alt="Useful and Reliable AI" />
+</p>
+
+<p>
+  <a href="https://scholar.google.com/citations?user=oftkKp4AAAAJ&hl=en">Google Scholar</a>
+  &nbsp;·&nbsp;
+  <a href="https://orcid.org/0009-0003-9545-5031">ORCID</a>
 </p>
 
 </div>
 
-## 🔬 What I am interested in
+## 🔬 Why I work on language models
 
-I want to understand the mechanisms behind language-model behavior—not only whether a model succeeds on a benchmark, but **why a capability appears, what internal structure supports it, and when it fails**.
+LLMs are already useful, but much of their behavior is still explained after the fact. I am uncomfortable treating an impressive output as the end of the investigation. I want to know **what the model has learned, how that information is represented and transformed, why a capability emerges, and under which conditions it breaks**.
 
-My work is moving toward small, controlled experiments that isolate individual factors in training data, representations, reasoning processes, and model architecture. The aim is to connect observable behavior with internal computation and build explanations that survive changes in model scale and implementation.
+My current interest is the internal structure of language models: the interaction among data, representations, reasoning processes, and architecture. I am particularly drawn to research that connects observable behavior to internal computation and produces conclusions that remain meaningful across model scales—not just on one checkpoint or benchmark.
 
 ```text
-behavior → controlled experiment → internal evidence → mechanistic explanation
+behavior → hypothesis → controlled evidence → mechanism → better models
 ```
 
-This direction is strongly inspired by the scientific framing of [Physics of Language Models](https://physics.allen-zhu.com/home): decompose intelligence into measurable components and study them in environments where hypotheses can be tested directly.
+Understanding and usefulness are not competing goals. A clearer account of how models store knowledge, perform hidden reasoning, generalize, and fail can inform better choices in data construction, training, architecture, evaluation, and deployment. I want mechanistic understanding to eventually translate into models that are **more capable, efficient, predictable, and useful in real systems**.
 
-## 🧭 Previously
+This direction is strongly inspired by [Physics of Language Models](https://physics.allen-zhu.com/home): decompose intelligence into measurable components, isolate causal factors through controlled training environments, and search for principles that generalize beyond a particular model generation. I am especially interested in its studies of [hidden reasoning](https://physics.allen-zhu.com/part-2-grade-school-math/part-2-1), [knowledge storage and extraction](https://physics.allen-zhu.com/part-3-knowledge/part-3-1), and [architecture design](https://physics.allen-zhu.com/part-4-architecture-design/part-4-1).
 
-- 👁️ **Vision models:** contributed to [PaGE — Practical Human-level Gaze Target Estimation](https://PaGE-26.github.io), with a focus on practical gaze understanding.
-- ⚛️ **Quantum computing:** worked on experimental quantum-computing workflows before shifting my main attention to language models.
+## 🧭 Technical journey
+
+My background spans multiple layers of computing—from programmable hardware and experimental control to distributed quantum systems and learned visual models. That experience shaped how I approach LLMs today: I care about both the mechanism inside a component and the value of the complete system.
+
+- 👁️ **Vision models · PaGE** — Contributed to [PaGE: Towards Practical Human-level Gaze Target Estimation](https://PaGE-26.github.io), which combines scene-level semantic understanding with precise spatial reasoning and distills a large teacher into practical student models. [Paper](https://arxiv.org/abs/2607.04860)
+- 🌐 **Distributed quantum networks** — Worked on architectures and experiments for functional quantum-network nodes, including multiplexed quantum links, long-distance ion–photon interfaces, and programmable quantum memories. Selected work: [Physical Review X](https://doi.org/10.1103/PhysRevX.14.021018) · [Physical Review Letters](https://doi.org/10.1103/PhysRevLett.134.070801)
+- 🧩 **RISC-V on FPGA** — Developed a Turing-complete electronic control-system architecture around a RISC-V processor implemented on FPGA, connecting low-level timing and control requirements with a programmable system interface for quantum experiments.
+- ⚛️ **Experimental quantum computing** — Built experience across hardware control, experimental workflows, and system-level integration before moving my primary research attention toward language models.
 
 ## 🛠️ How I like to work
 
-<p>
-  <code>minimal experiments</code> ·
-  <code>careful measurement</code> ·
-  <code>readable implementations</code> ·
-  <code>falsifiable claims</code>
-</p>
+- **Understand before optimizing.** I prefer explanations grounded in evidence over convenient stories about model behavior. When a result matters, I want to trace it back to the data, representation, optimization process, or architectural choice that produced it.
+- **Connect research with impact.** I care about whether an insight changes how we train, evaluate, or deploy models—not only whether it is intellectually satisfying.
+- **Think across the stack.** My experience with FPGA control, quantum-network systems, and vision models taught me to move between implementation details and system-level objectives.
+- **Build for scrutiny.** I value readable implementations, reproducible measurements, and claims that can survive ablations, scale changes, and failure-case analysis.
 
-I enjoy research questions that can be reduced to a clean experiment, inspected below the output layer, and explained without hiding behind benchmark numbers.
+I enjoy ambitious problems, but I do not like leaving important behavior at “it seems to work.” The part I find most rewarding is turning that uncertainty into a precise question—and then into an answer that helps build something better.
 
 ## 🟡 Contribution arcade
 
