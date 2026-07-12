@@ -51,8 +51,9 @@ Understanding and usefulness are not competing goals. A clearer account of how m
 This direction is strongly inspired by [Physics of Language Models](https://physics.allen-zhu.com/home): decompose intelligence into measurable components, isolate causal factors through controlled training environments, and search for principles that generalize beyond a particular model generation. I am especially interested in its studies of [hidden reasoning](https://physics.allen-zhu.com/part-2-grade-school-math/part-2-1), [knowledge storage and extraction](https://physics.allen-zhu.com/part-3-knowledge/part-3-1), and [architecture design](https://physics.allen-zhu.com/part-4-architecture-design/part-4-1).
 
 ## 🧭 Technical journey
+I'm now a Ph.D. student in IIIS, Tsinghua University.
 
-My background spans multiple layers of computing—from programmable hardware and experimental control to distributed quantum systems and learned visual models. That experience shaped how I approach LLMs today: I care about both the mechanism inside a component and the value of the complete system.
+My background spans multiple aspects—from programmable hardware and experimental control to distributed quantum systems and learned visual models. That experience shaped how I approach LLMs today: I care about both the mechanism inside a component and the value of the complete system.
 
 - 👁️ **Vision models · PaGE** — Contributed to [PaGE: Towards Practical Human-level Gaze Target Estimation](https://PaGE-26.github.io), which combines scene-level semantic understanding with precise spatial reasoning and distills a large teacher into practical student models. [Paper](https://arxiv.org/abs/2607.04860)
 - 🌐 **Distributed quantum networks** — Worked on architectures and experiments for functional quantum-network nodes, including multiplexed quantum links, long-distance ion–photon interfaces, and programmable quantum memories. [Publications on Google Scholar](https://scholar.google.com/citations?user=oftkKp4AAAAJ&hl=en)
