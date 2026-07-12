@@ -13,17 +13,26 @@ jobs:
     permissions:
       contents: write
     runs-on: ubuntu-latest
-    timeout-minutes: 5
+    timeout-minutes: 20
 
     steps:
       - name: Checkout profile repository
         uses: actions/checkout@v4
 
+      - name: Verify contribution access token
+        shell: pwsh
+        env:
+          PACMAN_TOKEN: ${{ secrets.PACMAN_GITHUB_TOKEN }}
+        run: |
+          if ([string]::IsNullOrWhiteSpace($env:PACMAN_TOKEN)) {
+            throw "PACMAN_GITHUB_TOKEN is missing. Add a personal access token so the graph can read the full contribution calendar."
+          }
+
       - name: Generate pacman contribution graph
         uses: abozanona/pacman-contribution-graph@main
         with:
           github_user_name: ${{ github.repository_owner }}
-          github_token: ${{ secrets.PACMAN_GITHUB_TOKEN || github.token }}
+          github_token: ${{ secrets.PACMAN_GITHUB_TOKEN }}
           games: pacman
           player_style: aggressive
 

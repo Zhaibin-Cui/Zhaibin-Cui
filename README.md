@@ -26,6 +26,18 @@
 
 </div>
 
+## 🟡 Contribution arcade
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Zhaibin-Cui/Zhaibin-Cui/output/pacman-contribution-graph-dark.svg?v=4">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Zhaibin-Cui/Zhaibin-Cui/output/pacman-contribution-graph.svg?v=4">
+  <img alt="Pac-Man eating my GitHub contribution graph" src="https://raw.githubusercontent.com/Zhaibin-Cui/Zhaibin-Cui/output/pacman-contribution-graph.svg?v=4" width="100%">
+</picture>
+
+<div align="center">
+  <sub>🧩 Understand the parts. 🧪 Test the mechanism. 🔭 Explain the behavior.</sub>
+</div>
+
 ## 🔬 Why I work on language models
 
 LLMs are already useful, but much of their behavior is still explained after the fact. I am uncomfortable treating an impressive output as the end of the investigation. I want to know **what the model has learned, how that information is represented and transformed, why a capability emerges, and under which conditions it breaks**.
@@ -57,15 +69,3 @@ My background spans multiple layers of computing—from programmable hardware an
 - **Build for scrutiny.** I value readable implementations, reproducible measurements, and claims that can survive ablations, scale changes, and failure-case analysis.
 
 I enjoy ambitious problems, but I do not like leaving important behavior at “it seems to work.” The part I find most rewarding is turning that uncertainty into a precise question—and then into an answer that helps build something better.
-
-## 🟡 Contribution arcade
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Zhaibin-Cui/Zhaibin-Cui/output/pacman-contribution-graph-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Zhaibin-Cui/Zhaibin-Cui/output/pacman-contribution-graph.svg">
-  <img alt="Pac-Man eating my GitHub contribution graph" src="https://raw.githubusercontent.com/Zhaibin-Cui/Zhaibin-Cui/output/pacman-contribution-graph.svg" width="100%">
-</picture>
-
-<div align="center">
-  <sub>🧩 Understand the parts. 🧪 Test the mechanism. 🔭 Explain the behavior.</sub>
-</div>

@@ -12,17 +12,17 @@ $content = Get-Content -LiteralPath $Path -Raw
 # Preserve GitHub's contribution levels after Pac-Man passes. Each green level
 # becomes a matching gray level; empty cells keep their original background.
 $lightPalette = @{
-    "#9be9a8" = "#c6cbd1"
-    "#40c463" = "#9ca3ab"
+    "#9be9a8" = "#d0d7de"
+    "#40c463" = "#afb8c1"
     "#30a14e" = "#6e7781"
-    "#216e39" = "#424a53"
+    "#216e39" = "#24292f"
 }
 
 $darkPalette = @{
-    "#0e4429" = "#484f58"
-    "#006d32" = "#6e7681"
+    "#0e4429" = "#30363d"
+    "#006d32" = "#57606a"
     "#26a641" = "#8c959f"
-    "#39d353" = "#b1bac4"
+    "#39d353" = "#c9d1d9"
 }
 
 $palette = if ($Theme -eq "Dark") { $darkPalette } else { $lightPalette }
