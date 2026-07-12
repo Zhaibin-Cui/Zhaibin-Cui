@@ -1,10 +1,8 @@
 <div align="center">
 
-<img src="./assets/llm-geek-banner.svg" alt="Zhaibin Cui — understanding language models from the inside" width="100%" />
-
 <h1>Hi, I'm Zhaibin 👋</h1>
 
-<p><strong>I study large language models from the inside.</strong></p>
+<p><strong>Understanding language models—from internal mechanisms to real-world value.</strong></p>
 
 <p>
   My current interest is to turn the black-box behavior of LLMs into concrete,
@@ -13,9 +11,9 @@
 </p>
 
 <p>
-  <img src="https://img.shields.io/badge/Focus-LLM%20Mechanisms-111827?style=flat-square&logo=probot&logoColor=8B5CF6" alt="LLM Mechanisms" />
-  <img src="https://img.shields.io/badge/Method-Controlled%20Experiments-111827?style=flat-square&logo=pytest&logoColor=22D3EE" alt="Controlled Experiments" />
-  <img src="https://img.shields.io/badge/Goal-Useful%20%26%20Reliable%20AI-111827?style=flat-square&logo=thealgorithms&logoColor=F9A8D4" alt="Useful and Reliable AI" />
+  <img src="https://img.shields.io/badge/LLM-Mechanisms-6F42C1?style=flat&labelColor=F6F8FA" alt="LLM Mechanisms" />
+  <img src="https://img.shields.io/badge/Method-Controlled%20Experiments-0969DA?style=flat&labelColor=F6F8FA" alt="Controlled Experiments" />
+  <img src="https://img.shields.io/badge/Goal-Useful%20%26%20Reliable%20AI-1A7F37?style=flat&labelColor=F6F8FA" alt="Useful and Reliable AI" />
 </p>
 
 <p>
@@ -57,8 +55,8 @@ This direction is strongly inspired by [Physics of Language Models](https://phys
 My background spans multiple layers of computing—from programmable hardware and experimental control to distributed quantum systems and learned visual models. That experience shaped how I approach LLMs today: I care about both the mechanism inside a component and the value of the complete system.
 
 - 👁️ **Vision models · PaGE** — Contributed to [PaGE: Towards Practical Human-level Gaze Target Estimation](https://PaGE-26.github.io), which combines scene-level semantic understanding with precise spatial reasoning and distills a large teacher into practical student models. [Paper](https://arxiv.org/abs/2607.04860)
-- 🌐 **Distributed quantum networks** — Worked on architectures and experiments for functional quantum-network nodes, including multiplexed quantum links, long-distance ion–photon interfaces, and programmable quantum memories. Selected work: [Physical Review X](https://doi.org/10.1103/PhysRevX.14.021018) · [Physical Review Letters](https://doi.org/10.1103/PhysRevLett.134.070801)
-- 🧩 **RISC-V on FPGA** — Developed a Turing-complete electronic control-system architecture around a RISC-V processor implemented on FPGA, connecting low-level timing and control requirements with a programmable system interface for quantum experiments.
+- 🌐 **Distributed quantum networks** — Worked on architectures and experiments for functional quantum-network nodes, including multiplexed quantum links, long-distance ion–photon interfaces, and programmable quantum memories. [Publications on Google Scholar](https://scholar.google.com/citations?user=oftkKp4AAAAJ&hl=en)
+- 🧩 **RISC-V on FPGA** — Contributed to a Turing-complete electronic control-system architecture built around a RISC-V processor on FPGA, supporting programmable low-level timing and control for quantum experiments.
 - ⚛️ **Experimental quantum computing** — Built experience across hardware control, experimental workflows, and system-level integration before moving my primary research attention toward language models.
 
 ## 🛠️ How I like to work
