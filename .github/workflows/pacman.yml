@@ -31,10 +31,10 @@ jobs:
       - name: Generate pacman contribution graph
         uses: abozanona/pacman-contribution-graph@main
         with:
-          github_user_name: ${{ github.repository_owner }}
+          github_user_name: ${{ 'Zhaibin-Cui' }}
           github_token: ${{ secrets.PACMAN_GITHUB_TOKEN }}
           games: pacman
-          player_style: aggressive
+          # player_style: aggressive
 
       - name: Polish generated SVGs
         shell: pwsh
