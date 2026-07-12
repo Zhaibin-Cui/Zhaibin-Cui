@@ -9,8 +9,8 @@
 </p>
 
 <p>
-  I am interested in how large language models are structured, how they behave internally,
-  and how careful experiments can make these systems easier to understand.
+  I study how large language models are organized, how their behavior emerges in practice,
+  and how experiments can turn opaque behavior into testable explanations.
 </p>
 
 <p>
@@ -32,28 +32,30 @@
   <img alt="Pac-Man eating my GitHub contribution graph" src="https://raw.githubusercontent.com/Zhaibin-Cui/Zhaibin-Cui/output/pacman-contribution-graph.svg" width="100%">
 </picture>
 
+<img src="./assets/divider.svg" alt="decorative divider" width="100%" />
+
 </div>
 
 ---
 
-### Research interests
+### Current focus
 
-- Internal structure and behavior of large language models
-- Representation analysis and model evaluation
-- Vision-language and multimodal models
-- Experimental workflows for quantum computing
+| Area | What I care about |
+| --- | --- |
+| Large language models | structure, behavior, evaluation, and failure analysis |
+| Multimodal AI | previous work on vision-language model systems |
+| Quantum computing | experimental workflows and implementation-level practice |
 
 ### Background
 
-- Previous work on vision-language models
-- Experimental work in quantum computing
-- Current focus on understanding large language models through implementation and analysis
+- Previously worked on vision-language models.
+- Previously worked on quantum computing experiments.
+- Currently focused on understanding large language models through implementation, measurement, and analysis.
 
 ### Working style
 
-I prefer concrete experiments, readable code, and technical claims that can be checked.
+I prefer concrete experiments, readable code, and technical claims that can be checked directly.
 
 ```txt
 question → experiment → observation → explanation → revision
 ```
-

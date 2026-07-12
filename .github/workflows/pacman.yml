@@ -16,12 +16,22 @@ jobs:
     timeout-minutes: 5
 
     steps:
+      - name: Checkout profile repository
+        uses: actions/checkout@v4
+
       - name: Generate pacman contribution graph
         uses: abozanona/pacman-contribution-graph@main
         with:
           github_user_name: ${{ github.repository_owner }}
+          github_token: ${{ secrets.PACMAN_GITHUB_TOKEN || github.token }}
           games: pacman
           player_style: aggressive
+
+      - name: Polish generated SVGs
+        shell: pwsh
+        run: |
+          ./scripts/polish-pacman-svg.ps1 -Path dist/pacman-contribution-graph.svg -EatenColor "#8c959f"
+          ./scripts/polish-pacman-svg.ps1 -Path dist/pacman-contribution-graph-dark.svg -EatenColor "#6e7681"
 
       - name: Push generated files to output branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
