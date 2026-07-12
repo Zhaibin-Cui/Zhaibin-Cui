@@ -29,7 +29,7 @@ jobs:
           }
 
       - name: Generate pacman contribution graph
-        uses: abozanona/pacman-contribution-graph@main
+        uses: abozanona/pacman-contribution-graph@v5.0.0
         with:
           github_user_name: 'Zhaibin-Cui'
           github_token: ${{ secrets.PACMAN_GITHUB_TOKEN }}
